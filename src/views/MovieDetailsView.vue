@@ -20,7 +20,7 @@
   <div class="main">
     <div class="content">
       <img
-        :src="`https://image.tmdb.org/t/p/w185${movieStore.currentMovie.poster_path}`"
+        :src="`https://image.tmdb.org/t/p/w500${movieStore.currentMovie.poster_path}`"
         :alt="movieStore.currentMovie.title"
       />
 
@@ -50,4 +50,24 @@
   </div>
   
 </template>
+<style scoped>
+.main{
+  display: grid;
+  background-color:rgb(0, 0, 0) ;
+  color: white;
+  grid-column: auto;
+}
+img{
+  width: 500px;
+gap: ;
+
+}
+.details{
+
+
+}
+
+
+
+</style>
 

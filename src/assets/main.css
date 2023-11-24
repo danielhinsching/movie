@@ -1,6 +1,6 @@
-*,
-*::before,
-*::after {
+
+::before
+::after {
   box-sizing: border-box;
   margin: 0;
 }
@@ -23,6 +23,7 @@ body {
     sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
+  background-color: #000000;
 }
 .movie-list {
   display: flex;
@@ -47,6 +48,7 @@ body {
 
 .movie-details {
   padding: 0 0.5rem;
+  color: white;
 }
 
 .movie-title {
@@ -54,6 +56,7 @@ body {
   font-weight: bold;
   line-height: 1.3rem;
   height: 3.2rem;
+  color: white;
 }
 
 .genre-list {
@@ -63,10 +66,11 @@ body {
   gap: 2rem;
   list-style: none;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 .genre-item {
-  background-color: #387250;
+  background-color: #a80909;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -74,8 +78,8 @@ body {
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: #000000;
+  box-shadow: 0 0 0.5rem #000000;
 }
 
 .movie-genres {
@@ -88,7 +92,7 @@ body {
 }
 
 .movie-genres span {
-  background-color: #748708;
+  background-color: #a80909;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -98,8 +102,8 @@ body {
 
 .movie-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #a80909;
+  box-shadow: 0 0 0.5rem #ff1212;
 }
 .companies {
   display: flex;
@@ -151,7 +155,7 @@ body {
 }
 
 .genre-item {
-  background-color: #387250;
+  background-color: #a80909;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -160,8 +164,8 @@ body {
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: #a80909;
+  box-shadow: 0 0 0.5rem #ff1212;
 }
 
 .movie-genres {
@@ -174,7 +178,7 @@ body {
 }
 
 .movie-genres span {
-  background-color: #748708;
+  background-color: #a80909;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -184,8 +188,8 @@ body {
 
 .movie-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #a80909;
+  box-shadow: 0 0 0.5rem #ff1212;
 }
 .TV-list {
   display: flex;
@@ -229,7 +233,7 @@ body {
 }
 
 .genre-item {
-  background-color: #387250;
+  background-color: #a80909;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -237,8 +241,8 @@ body {
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: #a80909;
+  box-shadow: 0 0 0.5rem #ff1212;
 }
 
 .TV-genres {
@@ -251,7 +255,7 @@ body {
 }
 
 .TV-genres span {
-  background-color: #748708;
+  background-color: #ff1212;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -261,11 +265,11 @@ body {
 
 .TV-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #a80909;
+  box-shadow: 0 0 0.5rem #ff1212;
 
 } header {
-  height: 3rem;
+  height: 100px;
   display: flex;
   background-color: black;
   color: #fff;
@@ -277,6 +281,7 @@ nav {
   margin-bottom: 0;
   display: flex;
   align-items: center;
+  
 }
 
 nav a {
